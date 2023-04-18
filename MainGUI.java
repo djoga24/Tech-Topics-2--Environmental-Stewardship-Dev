@@ -3,7 +3,7 @@ import java.awt.event.*;
 import javax.swing.*;
 
 
-public class Main{
+public class MainGUI{
 
     private JFrame mainFrame;
     private JFrame EnviromentImpactsFrame, PositiveEnviromentImpactsFrame, NegativeEnviromentImpactsFrame;
@@ -14,7 +14,7 @@ public class Main{
     private JButton InitiativesBu, QuizBu;
     private JButton backButton;
 
-    public Main() {
+    public MainGUI() {
 
         mainFrame = new JFrame("Main Frame");
         mainFrame.setSize(500,500);
@@ -452,7 +452,7 @@ public void ShowNegativeEnviromentalImpactsFrame(){
 }
 
 public static void main(String[] args) {
-    Main main = new Main();
+    MainGUI main = new MainGUI();
     main.mainFrame.setVisible(true);
 }
 }

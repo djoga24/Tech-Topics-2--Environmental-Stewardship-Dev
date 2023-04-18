@@ -81,14 +81,14 @@ public class MainGUI{
         infolabel.setFont(labelFont);
         
         
-        String imagePath = "C:\\Users\\Gamer\\Documents\\Picture5.jpeg";
+        String imagePath = "C:\\Users\\Gamer\\Documents\\Picture5.png";
         ImageIcon imageIcon = new ImageIcon(imagePath);
         Image image = imageIcon.getImage();
         Image scaledImage = image.getScaledInstance(250, 250, Image.SCALE_SMOOTH);
         ImageIcon scaledImageIcon = new ImageIcon(scaledImage);
         JLabel pictureLabel = new JLabel(scaledImageIcon);
             
-        JLabel captionLabel = new JLabel("STEP is a really good program!");
+        JLabel captionLabel = new JLabel("The Digital Wellness Lab is a really good program!");
         captionLabel.setHorizontalAlignment(JLabel.CENTER);
     
         JPanel picturePanel = new JPanel(new BorderLayout());

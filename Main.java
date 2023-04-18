@@ -62,7 +62,7 @@ public class Main{
 
         JLabel headingLabel = new JLabel();
         headingLabel.setVerticalAlignment(JLabel.TOP);
-        Font headingFont = new Font("Arial", Font.BOLD, 17);
+        Font headingFont = new Font("Arial", Font.BOLD, 16);
         headingLabel.setFont(headingFont);
         headingLabel.setText("Initiatives in Canada");
         headingLabel.setHorizontalAlignment(JLabel.CENTER);
